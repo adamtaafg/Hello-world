@@ -36,6 +36,6 @@
     }
   },
   "scripts":{
-    "postinstall":"bower cache clean && bower install"
+    "postinstall": "node.exe node_modules/bower/bin/bower install"
   }
 }
